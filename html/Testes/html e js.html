@@ -10,7 +10,10 @@
                 color: black
             }
             dl{
-                color : white
+                color : black
+            }
+            img{
+                
             }
         </style>
         <script language = "Javascript">
@@ -23,12 +26,31 @@
             alert("Seja Bem-Vindo, cyber batutinha");
             idade = dataAtual - dataNasc;
             document.write("<p></p>Sua idade é: " + idade)
+            function tomouNaJabiraca(){
+                alert("ÃÃÃÃÃHHH!!! ÕÕÕÕHH!!")
+            }
+            function OMINITRIQUIS(){
+                document.getElementById("foto").src="img/ghost0.png"
+            }
+            function relogioDoCarai(){
+                document.getElementById("foto").src="img/ghost1.png"
+            }
         </script>
     </header>
     <body>
+        <dl style = "text-align:center">
+                <p>------------------------------------</p>
         <p>baum diah owo</p>
         <p>se hidrate</p>
     <p>use cotoveleiras e joelheiras quando for andar de skate</p>
         <p>amém</p>
+        <p>------------------------------------</p>
+        <h2>The faster man alive owo</h2>
+        <img src = "img/MAIS VELOZ QUE HÁ!.jpg" style="border: 3px solid black" onclick="tomouNaJabiraca()">
+        <p>------------------------------------</p>
+        <h2>Bu! Te assustei :3</h2>
+        <img src = "img/ghost1.png" height="400" width="400" id="foto" onmouseover="OMINITRIQUIS()"
+        onmouseout="relogioDoCarai()">
+    </dl>
     </body>
 </html>
